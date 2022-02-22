@@ -1,0 +1,59 @@
+body {
+    font-family: 'Montserrat', sans-serif !important;
+    background: rgb(27, 0, 36);
+    background: linear-gradient(90deg, rgba(27, 0, 36, 1) 0%, rgba(55, 87, 209, 1) 0%, rgba(137, 81, 221, 1) 100%, rgba(67, 38, 130, 1) 100%);
+}
+
+a:active, a:hover {}
+
+a {
+    text-decoration: none !important;
+    color: black !important;
+}
+
+@media(max-width:1320px) {
+    .fecha {
+        visibility: hidden;
+    }
+}
+
+@media(min-width:1320px) {
+    .abre {
+    }
+}
+
+.tamanho {
+    margin-top: 80px;
+    height: 100px;
+}
+
+.white {
+    color: snow;
+}
+
+@media(max-width:860px) {
+    li span {
+        position: absolute;
+        visibility: hidden;
+    }
+}
+
+.letraroxa {
+    color: rgb(137, 81, 221);
+}
+
+.letraazul {
+    color: rgb(55, 87, 209);
+}
+
+.bordaazul {
+    border: solid 1px rgb(55, 87, 209);
+}
+
+.bordaredonda {
+    border-radius: 20px !important;
+}
+
+.bordaroxa {
+    border: solid 1px rgb(137, 81, 221);
+}

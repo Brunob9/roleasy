@@ -11,14 +11,13 @@ a {
     color: black !important;
 }
 
-@media(max-width:1320px) {
+@media screen and (min-width: 0px) and (max-width: 1200px) {
     .fecha {
-        visibility: hidden;
+        display: none;
     }
-}
 
-@media(min-width:1320px) {
     .abre {
+        width: 100% !important;
     }
 }
 
